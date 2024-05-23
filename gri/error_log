@@ -1,0 +1,2 @@
+[30-Jun-2021 20:56:40 UTC] PHP Notice:  Undefined variable: headers in /home/rajsofto/public_html/schoolofmines.cf/gri/include/@config-domain.php on line 8
+[30-Jun-2021 20:56:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rajsofto/public_html/schoolofmines.cf/gri/include/brand_name.php on line 3

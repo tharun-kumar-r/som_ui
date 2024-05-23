@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+
+background-color:#ffffff;
+padding:11px;
+border-bottom: solid rgb(228, 228, 228) 2px;
+box-shadow: 0 0 12px #b8b6b6;
+align-items: center;
+
+z-index: 1;
+
+}
+button
+{
+    background-color:  royalblue;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+    font-family: rajsoft;
+   float: right;
+    padding-right: 12px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   margin-top: 6px;
+ 
+}
+.output
+{
+    width: 90%;
+    text-align: left;
+   padding:10px;
+}
+.ioout
+{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border: 1px solid #e2e7e9;
+    padding:5px;
+    margin-bottom: 12px;;
+ 
+}
+
+
+button:hover{
+background-color: #2856dd;
+transition: 0.5s;
+}
+
+.sign
+{
+	font-family: rajsoft;
+	font-size: 16px;
+	
+	color:white;
+	border-radius:  30px;
+	border:solid royalblue 1px;
+	padding: 3px 28px;
+	background-color:rgb(38, 89, 240);
+	cursor: pointer;
+}
+.frame
+{
+    background-image: linear-gradient( #f6f9fa,#d6e4e9);
+    padding: 40px;
+    display: grid;
+    place-items: center;
+   
+}
+.inputtxt
+{  
+
+    padding:3px 11px; 
+    outline: none;
+    text-decoration: none;
+    font-family: rajsoft;
+    border: 1px solid #f3f7f8;
+}
+.inputbtn{
+
+    border: 1px solid  royalblue ;
+    color: white;
+    background: rgb(38, 89, 240);
+    padding:2px 11px;
+    outline: none;
+    font-family: rajsoft;
+    cursor: pointer;
+
+
+}
+
+.row
+{
+    display:inline-flex;
+   
+}
+.clm
+{
+    width: 100px;
+    height: 60px;
+    padding: 12px;
+    background-color:white;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:33px;
+    cursor: pointer;
+}
+.clm:hover{
+
+transition: 1s;
+background-color:#f0f2f3;
+
+}
+
+
+.search
+{
+    background-color:whitesmoke;
+    height: 50px;
+    
+   
+ 
+}
+
+
+
+@media(max-width: 800px)
+{
+    .clm
+    {
+        
+        width: 80PX;
+        height: 40px;
+        padding-top:11px;
+        margin: 5px;
+        font-size: 11px;
+    } 
+    
+  .frame
+{
+ padding: 11px;
+}
+
+.tb{
+    width:700px;
+    padding-left: 12px;
+    padding-right:10px;
+}
+.output {
+    width: 84%;
+    margin-left: -12px;
+    text-align: left;
+}
+}

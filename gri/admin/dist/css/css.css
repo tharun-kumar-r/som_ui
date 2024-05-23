@@ -1,0 +1,302 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 199; /* Sit on top */
+    padding-top: 260px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+   
+    padding-top: 11px;
+    padding-right: 12px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 5px 16px;
+    background-color: white;
+    
+  }
+  
+  .modal-body {padding:11px;}
+  
+  
+
+.pagination
+   {
+   padding:10px;
+   overflow: auto;
+    }
+
+   .ho{
+padding:2px 7px;
+  
+   text-decoration:none;
+   background:white;
+   border:1px solid silver;
+ 
+
+   color:#27272b;
+   margin:2px;
+   font-family: inherit;
+
+
+   }
+
+.xbtn
+{
+  width: 100%;
+  background-color: #3e99fc;
+  border:0;
+  color:white;
+  outline: none;
+}
+.xbtn:hover{
+  background: #278cfc;
+  color: white;
+}
+.xbtn1
+{
+  width: 100%;
+  background-color: white;
+  border:1px solid silver;
+  color: #000;
+  outline: none;
+}
+.xbtn1:hover{
+  background: whitesmoke;
+ 
+}
+
+
+a{
+    text-decoration: none;
+}
+
+    .ac{
+        text-decoration:none;
+padding:2px 7px;
+   border:1px solid #0253cc;
+   text-decoration:none;
+   background:#3e99fc;
+   font-weight:bold;
+   color:white;
+   margin:2px;
+   font-family:arial;
+   padding-bottom:1px;
+   font-family: inherit;
+   overflow: hidden;
+   }
+   .color
+   {
+       width:100%;
+       background:white;
+       padding:11px;
+       border:1px solid #dddfe0;
+   }
+
+   *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+
+background-color:#ffffff;
+padding:11px;
+border-bottom: solid rgb(228, 228, 228) 2px;
+box-shadow: 0 0 12px #b8b6b6;
+align-items: center;
+
+z-index: 1;
+
+}
+button
+{
+    background-color:  rgb(87, 89, 94);
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+    font-family: inherit;
+   float: right;
+    padding-right: 12px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   margin-top: 6px;
+ 
+}
+.output
+{
+    width: 90%;
+    text-align: left;
+   padding:10px;
+}
+.ioout
+{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border: 1px solid #e2e7e9;
+    padding:5px;
+    margin-bottom: 12px;;
+ 
+}
+
+
+button:hover{
+background-color: #2856dd;
+transition: 0.5s;
+}
+
+.sign
+{
+    font-family: sans-serif;
+	font-size: 16px;
+	
+	color:white;
+	border-radius:  30px;
+	border:solid royalblue 1px;
+	padding: 3px 28px;
+	background-color:rgb(38, 89, 240);
+	cursor: pointer;
+}
+.frame
+{
+    background-image: linear-gradient( #f6f9fa,#d6e4e9);
+    padding: 40px;
+    display: grid;
+    place-items: center;
+   
+}
+.inputtxt
+{  
+
+    padding:3px 11px; 
+    outline: none;
+    text-decoration: none;
+    font-family: inherit;
+    border: 1px solid #f3f7f8;
+}
+.inputbtn{
+
+    border: 1px solid #3f9bff ;
+    color: white;
+    background: #3f9bff;
+    padding:2px 11px;
+    outline: none;
+    font-family: inherit;
+    cursor: pointer;
+border-radius: 2px;
+
+}
+.inputbtn:hover
+{
+
+    background: #268bf7;
+}
+
+.row
+{
+    display:inline-flex;
+   
+}
+.clm
+{
+    width: 100px;
+    height: 60px;
+    padding: 12px;
+    background-color:white;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:33px;
+    cursor: pointer;
+}
+.clm:hover{
+
+transition: 1s;
+background-color:#f0f2f3;
+
+}
+
+
+.search
+{
+    background-color:whitesmoke;
+    height: 50px;
+    
+   
+ 
+}
+
+
+
+@media(max-width: 800px)
+{
+    .clm
+    {
+        
+        width: 80PX;
+        height: 40px;
+        padding-top:11px;
+        margin: 5px;
+        font-size: 11px;
+    } 
+    
+  .frame
+{
+ padding: 11px;
+
+}
+
+.tb{
+    width:900px;
+    padding-left: 16px;
+    padding-right:10px;
+}
+
+}
